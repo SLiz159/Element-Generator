@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Page</title>
+<link rel="stylesheet" href="About.css">
+</head>
+<body>
+    <h2 >ABOUT</h2>
+    <p1> Who doesn't love a good story? Whether it may be through a novel, movie, or play, everyone loves to experience stories that evoke emotion, makes them smile, and possibly even inspires them. Yet, it can be challenging at times to put together a tale that engages audiences. This Element Generator is designed to bring forth prompts that lay the foundation of your narrative. These elements are key in bringing out the 'where', the 'who', and the 'what' of your stories. </p1>
+    <p2>SETTING</p2>
+    <p3>CHARACTER</p3>
+    <p4>CONFLICT</p4>
+    <p5> To try it out, just hit ROLL!</p5>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="About.html">About</a>
+        <a href="index.html">Element Generator</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+      
+      <span style="font-size:30px;cursor:pointer;position: fixed;top: 30px;right: 50px" onclick="openNav()">&#9776;</span>
+
+      <div class="slots">
+		<div class="reel"></div>
+		<div class="reel"></div>
+	  <div class="reel"></div>
+	</div> 
+    
+    <div class="world">
+        <img src="images/world.png" alt="world">
+    </div>
+
+    <div class="people">
+        <img src="images/people.png" alt="people">
+    </div>
+
+    <div class="question">
+        <img src="images/question.png" alt="question">
+    </div>
+
+    <button><a href="index.html">ROLL</button>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            }
+
+    </script>
+</body>
+</html>
